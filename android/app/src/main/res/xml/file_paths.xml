@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Path untuk menyimpan gambar di penyimpanan eksternal -->
+    <external-path name="my_images" path="." />
+    
+    <!-- Path untuk menyimpan gambar di cache -->
+    <cache-path name="my_cache_images" path="." />
+    
+    <!-- Contoh tambahan, jika diperlukan -->
+    <!-- Path untuk menyimpan file di direktori aplikasi -->
+    <files-path name="my_files" path="." />
+    
+    <!-- Path untuk menyimpan file di direktori cache internal -->
+    <cache-path name="my_internal_cache" path="." />
+</paths>

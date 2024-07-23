@@ -29,10 +29,23 @@
                 "glob": "**/*.svg",
                 "input": "node_modules/ionicons/dist/ionicons/svg",
                 "output": "./svg"
+              },
+              {
+                "glob": "marker-icon.png",
+                "input": "node_modules/leaflet/dist/images",
+                "output": "./assets/"
+              },
+              {
+                "glob": "marker-shadow.png",
+                "input": "node_modules/leaflet/dist/images",
+                "output": "./assets/"
               }
             ],
-            "styles": ["src/global.scss", "src/theme/variables.scss"],
-            "scripts": []
+            "styles": ["node_modules/leaflet/dist/leaflet.css", "src/global.scss", "src/theme/variables.scss"],
+            "scripts": ["node_modules/leaflet/dist/leaflet.js"],
+            "allowedCommonJsDependencies": [
+              "leaflet"
+            ]
           },
           "configurations": {
             "production": {
@@ -136,7 +149,8 @@
   "cli": {
     "schematicCollections": [
       "@ionic/angular-toolkit"
-    ]
+    ],
+    "analytics": "554cc537-abdc-4e2b-804a-f5ff7f978c2d"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {

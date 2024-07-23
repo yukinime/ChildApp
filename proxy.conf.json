@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://4e20255e-8188-46b5-9505-53ccdf128cdf-00-26wxol8esggii.picard.replit.dev",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
